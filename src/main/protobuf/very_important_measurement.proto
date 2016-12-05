@@ -1,0 +1,7 @@
+syntax = "proto3";
+package com.aznauryan.streakstats.proto;
+
+message VeryImportantMeasurement {
+    string sessionId = 1;
+    int32 status = 2;
+}
